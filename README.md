@@ -1,11 +1,10 @@
-# New York Times Crossword Daily Download and Print
+# New York Times Wordle API data downloader
 
-This script downloads the NYTimes daily crossword and prints it out to the default linux lpr printer.
+This script downloads the stored Wordle data (with the user's play history and details from their last game) from the NYTimes server. You need a nytimes.com login, but a free one will do; you don't need a subscription.
 
-You need to have a valid NYTimes Crossword subscription for this to work.
+Run with:
 
-You can call the script with the following arguments:
+./dl_wordle_data.sh <nyt username> <nyt password> 
 
-```
-./print_nytime_crossword.sh <nyt username> <nyt password> <number of copies to print>
-```
+All the actual work was done at:
+https://github.com/bertwagner/nyt_crossword_download_print/
