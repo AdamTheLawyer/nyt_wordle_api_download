@@ -5,7 +5,6 @@ PASSWORD=$2
 
 # Remove cookies 
 rm -f cookies.txt
-rm -f crossword.pdf
 
 # Create today's date string in NYT expected format
 DATE=$(date +%b%d%y)
