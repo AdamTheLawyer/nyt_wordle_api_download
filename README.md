@@ -7,4 +7,4 @@ Run with:
 ./dl_wordle_data.sh <nyt username> <nyt password> 
 
 All the actual work was done at:
-https://github.com/bertwagner/nyt_crossword_download_print/
+https://github.com/bertwagner/nyt_crossword_download_print
